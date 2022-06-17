@@ -54,7 +54,7 @@ ROOT_URLCONF = 'marthasite.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [r'C:\Users\Nushan PC\Documents\Martha-Restaurant\marthasite\ordering\templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
