@@ -1,0 +1,12 @@
+{% extends 'ordering/base.html' %}
+
+{% block content %}
+<h1>Order</h1>
+<div>
+    <form method="POST" action="/order/">
+        {% csrf_token %}
+        {{form.as_ul}}
+        <button type="submit", name="order">Order</button>
+    </form>
+</div>
+{% endblock %}
